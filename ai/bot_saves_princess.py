@@ -18,7 +18,7 @@ def displayPathtoPrincess(n, grid):
             for i, char in enumerate([char for char in grid[j]]):
                 if char == 'p':
                     peach_col = i
-    peach_loc = (peach_row, peach_col)
+    
 
     center = n // 2
     if peach_row > center and peach_col > center:
